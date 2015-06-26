@@ -87,3 +87,9 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+/** Using this in a subdirectory now **/
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
+define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
+define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
+define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
