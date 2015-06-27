@@ -136,8 +136,8 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (38, 'gmt_offset', '0', 'yes'),
 (39, 'default_email_category', '1', 'yes'),
 (40, 'recently_edited', '', 'no'),
-(41, 'template', '561Media', 'yes'),
-(42, 'stylesheet', '561Media', 'yes'),
+(41, 'template', 'CustomTheme', 'yes'),
+(42, 'stylesheet', 'CustomTheme', 'yes'),
 (43, 'comment_whitelist', '1', 'yes'),
 (44, 'blacklist_keys', '', 'no'),
 (45, 'comment_registration', '0', 'yes'),
@@ -201,8 +201,8 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (111, 'auth_salt', '266S%)H{cSqf+0:k/.XSCm_?--[!_E+e75O|2vg:(<f!*DiO#5o|rU@-Jvb@VqO#', 'yes'),
 (145, '_site_transient_update_plugins', 'O:8:"stdClass":5:{s:12:"last_checked";i:1435339846;s:7:"checked";a:5:{s:34:"advanced-custom-fields-pro/acf.php";s:5:"5.2.6";s:36:"contact-form-7/wp-contact-form-7.php";s:5:"4.2.1";s:85:"jquery-validation-for-contact-form-7-pro/jquery-validation-for-contact-form-7-pro.php";s:5:"3.0.1";s:41:"simple-image-sizes/simple_image_sizes.php";s:5:"3.0.7";s:27:"woocommerce/woocommerce.php";s:6:"2.3.11";}s:8:"response";a:0:{}s:12:"translations";a:0:{}s:9:"no_update";a:3:{s:36:"contact-form-7/wp-contact-form-7.php";O:8:"stdClass":6:{s:2:"id";s:3:"790";s:4:"slug";s:14:"contact-form-7";s:6:"plugin";s:36:"contact-form-7/wp-contact-form-7.php";s:11:"new_version";s:5:"4.2.1";s:3:"url";s:45:"https://wordpress.org/plugins/contact-form-7/";s:7:"package";s:63:"https://downloads.wordpress.org/plugin/contact-form-7.4.2.1.zip";}s:41:"simple-image-sizes/simple_image_sizes.php";O:8:"stdClass":6:{s:2:"id";s:5:"21008";s:4:"slug";s:18:"simple-image-sizes";s:6:"plugin";s:41:"simple-image-sizes/simple_image_sizes.php";s:11:"new_version";s:5:"3.0.7";s:3:"url";s:49:"https://wordpress.org/plugins/simple-image-sizes/";s:7:"package";s:67:"https://downloads.wordpress.org/plugin/simple-image-sizes.3.0.7.zip";}s:27:"woocommerce/woocommerce.php";O:8:"stdClass":6:{s:2:"id";s:5:"25331";s:4:"slug";s:11:"woocommerce";s:6:"plugin";s:27:"woocommerce/woocommerce.php";s:11:"new_version";s:6:"2.3.11";s:3:"url";s:42:"https://wordpress.org/plugins/woocommerce/";s:7:"package";s:61:"https://downloads.wordpress.org/plugin/woocommerce.2.3.11.zip";}}}', 'yes'),
 (147, '_site_transient_timeout_theme_roots', '1435341640', 'yes'),
-(148, '_site_transient_theme_roots', 'a:2:{s:8:"561Media";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";}', 'yes'),
-(109, '_site_transient_update_themes', 'O:8:"stdClass":4:{s:12:"last_checked";i:1435339842;s:7:"checked";a:2:{s:8:"561Media";s:3:"1.2";s:13:"twentyfifteen";s:3:"1.2";}s:8:"response";a:0:{}s:12:"translations";a:0:{}}', 'yes'),
+(148, '_site_transient_theme_roots', 'a:2:{s:8:"CustomTheme";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";}', 'yes'),
+(109, '_site_transient_update_themes', 'O:8:"stdClass":4:{s:12:"last_checked";i:1435339842;s:7:"checked";a:2:{s:8:"CustomTheme";s:3:"1.2";s:13:"twentyfifteen";s:3:"1.2";}s:8:"response";a:0:{}s:12:"translations";a:0:{}}', 'yes'),
 (112, 'logged_in_key', 'ah`=:Hgts5s_9`}Jc{$B;Jrmv@:br4XE8#}ekY#Z&BsE`J*82_w[KVFwNV.QY7nS', 'yes'),
 (113, 'logged_in_salt', '+8?NJp}}R$(@s3.ZA#vwI?>/qfB^lK4sZh.m=oK/d(/:_$<Ql$j^44s#+Z=io(su', 'yes'),
 (114, '_site_transient_timeout_browser_9a79f58dfe12a36484f818832d526447', '1435941003', 'yes'),
@@ -289,7 +289,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (201, 'woocommerce_hold_stock_minutes', '60', 'no'),
 (202, 'woocommerce_notify_low_stock', 'yes', 'no'),
 (203, 'woocommerce_notify_no_stock', 'yes', 'no'),
-(204, 'woocommerce_stock_email_recipient', 'development@561media.com', 'no'),
+(204, 'woocommerce_stock_email_recipient', 'development@shalakolee.com', 'no'),
 (205, 'woocommerce_notify_low_stock_amount', '2', 'no'),
 (206, 'woocommerce_notify_no_stock_amount', '0', 'no'),
 (207, 'woocommerce_hide_out_of_stock_items', 'no', 'yes'),
@@ -336,7 +336,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (248, 'woocommerce_registration_generate_username', 'yes', 'no'),
 (249, 'woocommerce_registration_generate_password', 'no', 'no'),
 (250, 'woocommerce_email_from_name', '561 Media', 'no'),
-(251, 'woocommerce_email_from_address', 'development@561media.com', 'no'),
+(251, 'woocommerce_email_from_address', 'development@shalakolee.com', 'no'),
 (252, 'woocommerce_email_header_image', '', 'no'),
 (253, 'woocommerce_email_footer_text', '561 Media - Powered by WooCommerce', 'no'),
 (254, 'woocommerce_email_base_color', '#557da1', 'no'),
@@ -359,8 +359,8 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
 (276, '_transient_wc_admin_report', 'a:1:{s:32:"50acbac12cee9e064d8ad94ed63a8173";a:0:{}}', 'no'),
 (277, 'theme_mods_twentyfifteen', 'a:1:{s:16:"sidebars_widgets";a:2:{s:4:"time";i:1435340732;s:4:"data";a:2:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}}}}', 'yes'),
-(278, 'current_theme', 'Twenty Fifteen/561Media', 'yes'),
-(279, 'theme_mods_561Media', 'a:1:{i:0;b:0;}', 'yes'),
+(278, 'current_theme', 'Twenty Fifteen/CustomTheme', 'yes'),
+(279, 'theme_mods_CustomTheme', 'a:1:{i:0;b:0;}', 'yes'),
 (280, 'theme_switched', '', 'yes'),
 (281, '_transient_timeout_geoip_50.154.155.159', '1435945533', 'no'),
 (282, '_transient_geoip_50.154.155.159', 'US', 'no'),
@@ -393,8 +393,8 @@ CREATE TABLE IF NOT EXISTS `wp_postmeta` (
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (1, 2, '_wp_page_template', 'default'),
 (4, 5, '_form', '<p>Your Name (required)<br />\n    [text* your-name] </p>\n\n<p>Your Email (required)<br />\n    [email* your-email] </p>\n\n<p>Subject<br />\n    [text your-subject] </p>\n\n<p>Your Message<br />\n    [textarea your-message] </p>\n\n<p>[submit "Send"]</p>'),
-(5, 5, '_mail', 'a:8:{s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:42:"[your-name] <wordpress@shalako.561dev.com>";s:4:"body";s:172:"From: [your-name] <[your-email]>\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on 561 Media (http://shalako.561dev.com)";s:9:"recipient";s:24:"development@561media.com";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}'),
-(6, 5, '_mail_2', 'a:9:{s:6:"active";b:0;s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:40:"561 Media <wordpress@shalako.561dev.com>";s:4:"body";s:114:"Message Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on 561 Media (http://shalako.561dev.com)";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:34:"Reply-To: development@561media.com";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}'),
+(5, 5, '_mail', 'a:8:{s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:42:"[your-name] <wordpress@shalako.561dev.com>";s:4:"body";s:172:"From: [your-name] <[your-email]>\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on 561 Media (http://shalako.561dev.com)";s:9:"recipient";s:24:"development@shalakolee.com";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}'),
+(6, 5, '_mail_2', 'a:9:{s:6:"active";b:0;s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:40:"561 Media <wordpress@shalako.561dev.com>";s:4:"body";s:114:"Message Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on 561 Media (http://shalako.561dev.com)";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:34:"Reply-To: development@shalakolee.com";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}'),
 (7, 5, '_messages', 'a:8:{s:12:"mail_sent_ok";s:43:"Your message was sent successfully. Thanks.";s:12:"mail_sent_ng";s:93:"Failed to send your message. Please try later or contact the administrator by another method.";s:16:"validation_error";s:74:"Validation errors occurred. Please confirm the fields and submit it again.";s:4:"spam";s:93:"Failed to send your message. Please try later or contact the administrator by another method.";s:12:"accept_terms";s:35:"Please accept the terms to proceed.";s:16:"invalid_required";s:34:"Please fill in the required field.";s:16:"invalid_too_long";s:23:"This input is too long.";s:17:"invalid_too_short";s:24:"This input is too short.";}'),
 (8, 5, '_additional_settings', ''),
 (9, 5, '_locale', 'en_US');
@@ -444,7 +444,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (1, 1, '2015-06-26 16:29:51', '2015-06-26 16:29:51', 'Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2015-06-26 16:29:51', '2015-06-26 16:29:51', '', 0, 'http://shalako.561dev.com/?p=1', 0, 'post', '', 1),
 (2, 1, '2015-06-26 16:29:51', '2015-06-26 16:29:51', 'This is an example page. It''s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\r\n\r\n<blockquote>Hi there! I''m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin'' caught in the rain.)</blockquote>\r\n\r\n...or something like this:\r\n\r\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\r\n\r\nAs a new WordPress user, you should go to <a href="http://shalako.561dev.com/wordpress/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!', 'Sample Page', '', 'publish', 'open', 'open', '', 'sample-page', '', '', '2015-06-26 16:29:51', '2015-06-26 16:29:51', '', 0, 'http://shalako.561dev.com/?page_id=2', 0, 'page', '', 0),
 (3, 1, '2015-06-26 16:30:03', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2015-06-26 16:30:03', '0000-00-00 00:00:00', '', 0, 'http://shalako.561dev.com/?p=3', 0, 'post', '', 0),
-(5, 1, '2015-06-26 17:44:52', '2015-06-26 17:44:52', '<p>Your Name (required)<br />\n    [text* your-name] </p>\n\n<p>Your Email (required)<br />\n    [email* your-email] </p>\n\n<p>Subject<br />\n    [text your-subject] </p>\n\n<p>Your Message<br />\n    [textarea your-message] </p>\n\n<p>[submit "Send"]</p>\n[your-subject]\n[your-name] <wordpress@shalako.561dev.com>\nFrom: [your-name] <[your-email]>\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on 561 Media (http://shalako.561dev.com)\ndevelopment@561media.com\nReply-To: [your-email]\n\n0\n0\n\n[your-subject]\n561 Media <wordpress@shalako.561dev.com>\nMessage Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on 561 Media (http://shalako.561dev.com)\n[your-email]\nReply-To: development@561media.com\n\n0\n0\nYour message was sent successfully. Thanks.\nFailed to send your message. Please try later or contact the administrator by another method.\nValidation errors occurred. Please confirm the fields and submit it again.\nFailed to send your message. Please try later or contact the administrator by another method.\nPlease accept the terms to proceed.\nPlease fill in the required field.\nThis input is too long.\nThis input is too short.', 'Contact form 1', '', 'publish', 'open', 'open', '', 'contact-form-1', '', '', '2015-06-26 17:44:52', '2015-06-26 17:44:52', '', 0, 'http://shalako.561dev.com/?post_type=wpcf7_contact_form&p=5', 0, 'wpcf7_contact_form', '', 0),
+(5, 1, '2015-06-26 17:44:52', '2015-06-26 17:44:52', '<p>Your Name (required)<br />\n    [text* your-name] </p>\n\n<p>Your Email (required)<br />\n    [email* your-email] </p>\n\n<p>Subject<br />\n    [text your-subject] </p>\n\n<p>Your Message<br />\n    [textarea your-message] </p>\n\n<p>[submit "Send"]</p>\n[your-subject]\n[your-name] <wordpress@shalako.561dev.com>\nFrom: [your-name] <[your-email]>\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on 561 Media (http://shalako.561dev.com)\ndevelopment@shalakolee.com\nReply-To: [your-email]\n\n0\n0\n\n[your-subject]\n561 Media <wordpress@shalako.561dev.com>\nMessage Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on 561 Media (http://shalako.561dev.com)\n[your-email]\nReply-To: development@shalakolee.com\n\n0\n0\nYour message was sent successfully. Thanks.\nFailed to send your message. Please try later or contact the administrator by another method.\nValidation errors occurred. Please confirm the fields and submit it again.\nFailed to send your message. Please try later or contact the administrator by another method.\nPlease accept the terms to proceed.\nPlease fill in the required field.\nThis input is too long.\nThis input is too short.', 'Contact form 1', '', 'publish', 'open', 'open', '', 'contact-form-1', '', '', '2015-06-26 17:44:52', '2015-06-26 17:44:52', '', 0, 'http://shalako.561dev.com/?post_type=wpcf7_contact_form&p=5', 0, 'wpcf7_contact_form', '', 0),
 (6, 1, '2015-06-26 17:45:18', '2015-06-26 17:45:18', '', 'Shop', '', 'publish', 'closed', 'open', '', 'shop', '', '', '2015-06-26 17:45:18', '2015-06-26 17:45:18', '', 0, 'http://shalako.561dev.com/shop/', 0, 'page', '', 0),
 (7, 1, '2015-06-26 17:45:18', '2015-06-26 17:45:18', '[woocommerce_cart]', 'Cart', '', 'publish', 'closed', 'open', '', 'cart', '', '', '2015-06-26 17:45:18', '2015-06-26 17:45:18', '', 0, 'http://shalako.561dev.com/cart/', 0, 'page', '', 0),
 (8, 1, '2015-06-26 17:45:18', '2015-06-26 17:45:18', '[woocommerce_checkout]', 'Checkout', '', 'publish', 'closed', 'open', '', 'checkout', '', '', '2015-06-26 17:45:18', '2015-06-26 17:45:18', '', 0, 'http://shalako.561dev.com/checkout/', 0, 'page', '', 0),
@@ -591,7 +591,7 @@ CREATE TABLE IF NOT EXISTS `wp_users` (
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'admin', '$P$BnB.Axe0rQnmBGa8du2i0WhXz5.eJH1', 'admin', 'development@561media.com', '', '2015-06-26 16:29:51', '', 0, 'admin');
+(1, 'admin', '$P$BnB.Axe0rQnmBGa8du2i0WhXz5.eJH1', 'admin', 'development@shalakolee.com', '', '2015-06-26 16:29:51', '', 0, 'admin');
 
 -- --------------------------------------------------------
 
