@@ -1,4 +1,3 @@
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
@@ -97,12 +96,12 @@ CREATE TABLE IF NOT EXISTS `wp_options` (
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://shalako.561dev.com/wordpress', 'yes'),
-(2, 'home', 'http://shalako.561dev.com/wordpress', 'yes'),
-(3, 'blogname', '561 Media', 'yes'),
+(1, 'siteurl', '', 'yes'),
+(2, 'home', '', 'yes'),
+(3, 'blogname', '', 'yes'),
 (4, 'blogdescription', 'Just another WordPress site', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
-(6, 'admin_email', 'development@561media.com', 'yes'),
+(6, 'admin_email', 'development@shalakolee.com', 'yes'),
 (7, 'start_of_week', '1', 'yes'),
 (8, 'use_balanceTags', '0', 'yes'),
 (9, 'use_smilies', '1', 'yes'),
