@@ -7,6 +7,8 @@ This will grab the latest wordpress core files from the official wordpress repos
 Notes:
 -
 
+If you use the included sql file it will set the following:
+
 - The Default Username is: <strong>admin</strong>
 - The Default Password is: <strong>edW>8m]+</strong>
 - The Default Email is: <strong>development@561media.com</strong>
