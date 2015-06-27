@@ -6,15 +6,25 @@ This will grab the latest wordpress core files from the official wordpress repos
 
 Notes:
 -
-
-If you use the included sql file it will set the following:
+If you use the included sql file it will set the following, as well as activate the included plugins and the default theme that is included:
 
 - The Default Username is: <strong>admin</strong>
 - The Default Password is: <strong>edW>8m]+</strong>
-- The Default Email is: <strong>development@561media.com</strong>
-- The Default Site Title is: <strong>561 Media</a>
+- The Default Email is: <strong>development@shalakolee.com</strong>
+- The Site title is set to nothing
 
-Please remember to change all these when you do an install
+Please remember to change all these if you use the included sql file.
+
+Plugins Included:
+-
+
+<strong>Note</strong> - `when using this install, the plugins reside at /wp-content/plugins`
+
+- Contact Form 7
+- Advanced Custom Fields Pro
+- jQuery Validation for Contact Form 7
+- Simple Image Sizes
+- WooCommerce
 
 To change the WordPress version:
 -
