@@ -15,3 +15,32 @@ If you use the included sql file it will set the following:
 - The Default Site Title is: <strong>561 Media</a>
 
 Please remember to change all these when you do an install
+
+To change the WordPress version:
+-
+- open git shell
+- clone repository recursive so you download wordpress
+
+        git clone --recursive http://git.shalakolee.com/shalako/Wordpress.git
+   
+- goto the Wordpress/wordpress directory
+
+        git fetch --tags
+   
+- to see what versions are available
+
+        git tag
+    
+- checkout the verision that you want
+
+        git checkout x.x.x
+    
+- goto the /Wordpress directory
+
+- commit the change
+
+        git commit -am "Changed Wordpress to version x.x.x"
+   
+- push the changes
+
+        git push origin master
